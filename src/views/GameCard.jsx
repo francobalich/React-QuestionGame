@@ -1,5 +1,4 @@
-import { Card } from "../components/Card"
-import { Fab } from "../components/Fab"
+import { Card, Fab } from "../components"
 
 export const GameCard = () => {
 
