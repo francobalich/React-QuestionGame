@@ -37,7 +37,7 @@
   },
   {
     "id": 7,
-    "status": false,
+    "status": true,
     "question": "¿Has estado siguiendo alguna tecnología nueva o tendencia en el mundo del desarrollo?",
     "author": "Franco Balich"
   },
@@ -48,13 +48,13 @@
     "author": "Franco Balich"
   },
   {
-    "id":9,
+    "id": 9,
     "status": false,
     "question": "¿Qué tal el stream de hoy?",
     "authon": "Franco Balich"
   },
   {
-    "id":10,
+    "id": 10,
     "status": false,
     "question": "¿De que parte de Argentina sos?",
     "authon": "MetalitoDev"
