@@ -1,6 +1,8 @@
 
-export const Card = () => {
+export const Card = ({number}) => {
   return (
-    <p>Card</p>
+    <div>
+      <p>{number}</p>
+    </div>
   )
 }
