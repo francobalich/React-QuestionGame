@@ -3,14 +3,12 @@ import { twMerge } from "tailwind-merge"
 import check from "../assets/check.svg"
 import plus from "../assets/plus.svg"
 
-export const Fab = ({ onClick, color="green" }) => {
-  const validateColor=()=>{
-    return color==="green"
-  }
+export const Fab = ({ onClick, color = "green" }) => {
+
   return (
-    <button onClick={onClick} className={twMerge("w-[41px] h-[45px] pb-[7px]  rounded-lg shadow border-white border-[3px] justify-center items-center gap-2.5 hover:brightness-110", color === "green" ? 'bg-lime-600' : 'bg-cyan-300')} >
-      <div div className="w-[35px] h-[35px] bg-lime-500 rounded-[5px] shadow justify-center items-center flex" >
-        <img src={validateColor?check:plus} />
+    <button onClick={onClick} className={twMerge("pb-1 rounded-lg shadow border-white border-4 justify-center items-center gap-2.5 hover:brightness-110", color === "green" ? 'bg-lime-600' : 'bg-sky-400')} >
+      <div className={twMerge("w-9 h-9 rounded shadow justify-center items-center flex", color === "green" ? 'bg-lime-500' : 'bg-cyan-300')} >
+        <img src={color === "green" ? check : plus} />
       </div>
     </button>
   )

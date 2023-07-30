@@ -9,7 +9,7 @@ export const ReverseCard = () => {
 
   const navigate = useNavigate()
 
-  const handleClick = ()=>{
+  const handleClick = () => {
     navigate(-1)
   }
   useEffect(() => {
