@@ -7,7 +7,7 @@ export const AppRouter = () => {
     <Routes>
       <Route path='/' element={<GameCard />} />
       <Route path='/add' element={<QuestionForm />} />
-      <Route path='/question' element={<ReverseCard />} />
+      <Route path='/question/:id' element={<ReverseCard />} />
     </Routes>
   )
 }
