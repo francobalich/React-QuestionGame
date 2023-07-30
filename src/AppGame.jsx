@@ -1,13 +1,11 @@
-import { useEffect } from "react"
+import { useEffect, useContext } from "react"
 import { AppRouter } from "./router/AppRouter"
-import { useContext } from "react"
 import { QuestionContext } from "./context/QuestionContext"
 import questionData from "./data/questions.json"
 
 function AppGame() {
   const { question, setQuestion } = useContext(QuestionContext)
   useEffect(() => {
-    console.log(question);
     if (question === undefined) {
       const questionsUnread = questionData.filter(question => !question.status)
         // .sort(() => 0.5 - Math.random())

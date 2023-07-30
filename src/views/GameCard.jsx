@@ -1,7 +1,6 @@
 import { Card } from "../components/Card"
 import { Fab } from "../components/Fab"
 
-//background: linear-gradient(90deg, #A659FE 0%, #6F53FD 100%);
 export const GameCard = () => {
 
   const createCards = (amount) => {
@@ -17,7 +16,6 @@ export const GameCard = () => {
   return (
     <>
       <section className="flex flex-wrap w-[504px] h-[220px] justify-center items-center gap-2.5 inline-flex">
-
         {createCards(8)}
       </section>
       <Fab className="fixed right-8 bottom-8" color="blue" />

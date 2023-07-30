@@ -1,13 +1,10 @@
-import { useEffect } from "react"
-import { useState } from "react"
+import { useState, useContext } from "react"
 import { Fab } from "../components/Fab"
 import { useNavigate } from "react-router-dom"
-import { useContext } from "react"
 import { QuestionContext } from "../context/QuestionContext"
 import { useParams } from "react-router-dom"
 
 export const ReverseCard = () => {
-  const [author, setAuthor] = useState("")
   const { question } = useContext(QuestionContext)
   let { id } = useParams();
   const navigate = useNavigate()
