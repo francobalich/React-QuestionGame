@@ -1,6 +1,6 @@
 import { useEffect } from "react"
 import { useState } from "react"
-import { Button } from "../components/Button"
+import { Fab } from "../components/Fab"
 import check from "../assets/check.svg"
 import { useNavigate } from "react-router-dom"
 
@@ -24,7 +24,7 @@ export const ReverseCard = () => {
         <p className="text-center text-[28px] font-medium tracking-wider" >{question}</p>
         <p>Por: {author}</p>
       </div>
-      <Button onClick={handleClick} ><img src={check} /></Button>
+      <Fab onClick={handleClick} ><img src={check} /></Fab>
     </div >
   )
 }
