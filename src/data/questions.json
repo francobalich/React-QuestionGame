@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "status": false,
+    "question": "¿Cuál es tu lenguaje de programación favorito y por qué?",
+    "author": "Franco Balich"
+  },
+  {
+    "id": 2,
+    "status": false,
+    "question": "¿Has estado trabajando en algún proyecto interesante últimamente?",
+    "author": "Franco Balich"
+  },
+  {
+    "id": 3,
+    "status": false,
+    "question": "¿Qué consejo le darías a alguien que está empezando en el desarrollo de software?",
+    "author": "Franco Balich"
+  },
+  {
+    "id": 4,
+    "status": false,
+    "question": "¿Cuál ha sido el proyecto más desafiante o gratificante en el que has trabajado hasta ahora?",
+    "author": "Franco Balich"
+  },
+  {
+    "id": 5,
+    "status": false,
+    "question": "¿Cómo sueles abordar los problemas de rendimiento en tus aplicaciones?",
+    "author": "Franco Balich"
+  },
+  {
+    "id": 6,
+    "status": false,
+    "question": "¿Cuál es la característica más genial que has implementado en alguna de tus aplicaciones?",
+    "author": "Franco Balich"
+  },
+  {
+    "id": 7,
+    "status": false,
+    "question": "¿Has estado siguiendo alguna tecnología nueva o tendencia en el mundo del desarrollo?",
+    "author": "Franco Balich"
+  },
+  {
+    "id": 8,
+    "status": false,
+    "question": "¿Tienes alguna recomendación sobre herramientas o recursos para mejorar en la programación?",
+    "author": "Franco Balich"
+  },
+  {
+    "id":9,
+    "status": false,
+    "question": "¿Qué tal el stream de hoy?",
+    "authon": "Franco Balich"
+  },
+  {
+    "id":10,
+    "status": false,
+    "question": "¿De que parte de Argentina sos?",
+    "authon": "MetalitoDev"
+  }
+]
