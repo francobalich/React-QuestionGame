@@ -1,9 +1,10 @@
+import { AppRouter } from "./router/AppRouter"
 
 function AppGame() {
 
   return (
     <>
-      <h1>App</h1>
+      <AppRouter />
     </>
   )
 }
